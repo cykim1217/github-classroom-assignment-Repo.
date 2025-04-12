@@ -18,7 +18,7 @@ public class CubeVolEngine implements Computable {
             System.out.println("Invalid input. Please enter a number.");
             System.exit(0);
         }
-        if (length <= 0) {
+        if (length < 0) {
     InputChecker.printErrorMessageForNegativeInputsAndExit(engineName);
 }
     }
@@ -41,3 +41,4 @@ public class CubeVolEngine implements Computable {
         return engineName;
     }
 }
+//
